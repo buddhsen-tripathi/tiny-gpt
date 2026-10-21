@@ -1,0 +1,7 @@
+results/checkpoints/*.pt filter=lfs diff=lfs merge=lfs -text
+data/*.jsonl filter=lfs diff=lfs merge=lfs -text
+data/*.npy filter=lfs diff=lfs merge=lfs -text
+
+# Frozen artifacts must retain their bytes for manifest hash verification.
+/data/** -text
+/results/** -text -whitespace

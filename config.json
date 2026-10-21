@@ -1,0 +1,22 @@
+{
+  "data_dir": "data",
+  "output_dir": "results",
+  "seed": 2026,
+  "n_layers": 6,
+  "d_model": 384,
+  "n_heads": 6,
+  "context_length": 256,
+  "target_tokens": 25000000,
+  "warmup_tokens": 1000000,
+  "eval_every_tokens": 2500000,
+  "validation_targets": 32768,
+  "microbatch_size": 8,
+  "effective_batch_size": 32,
+  "learning_rate": 0.0006,
+  "min_learning_rate": 0.00006,
+  "weight_decay": 0.1,
+  "temperature": 0.8,
+  "top_k": 40,
+  "max_new_tokens": 200,
+  "early_stop": false
+}

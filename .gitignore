@@ -1,0 +1,15 @@
+.context/
+.venv/
+__pycache__/
+*.egg-info/
+dist/
+build/
+/data/*
+!/data/manifest.json
+!/data/tokenizer.json
+!/data/train.jsonl
+!/data/validation.jsonl
+!/data/train_tokens.npy
+!/data/val_tokens.npy
+/runs/
+.DS_Store

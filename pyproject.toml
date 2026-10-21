@@ -1,0 +1,13 @@
+[project]
+name = "tiny-gpt"
+version = "0.1.0"
+description = "Train a decoder-only transformer from scratch on course-provided TinyStories data"
+requires-python = ">=3.12"
+dependencies = [
+    "torch>=2.5,<3",
+    "numpy>=1.26,<3",
+    "datasets>=3,<5",
+    "tokenizers>=0.20,<1",
+    "matplotlib>=3.9,<4",
+    "reportlab>=4.4,<5",
+]
