@@ -1,0 +1,92 @@
+Using existing prepared data; hashes and recipe settings will be checked.
+[check_data] starting
+[check_data] complete
+[check_model] starting
+[check_model] complete
+[verify_or_run_overfit_gate] starting
+[verify_or_run_overfit_gate] complete
+[train] starting
+progress tokens=409,600/25,000,000 loss=5.6099 tokens/sec=13719 eta_minutes=29.9
+progress tokens=819,200/25,000,000 loss=4.3520 tokens/sec=12511 eta_minutes=32.2
+progress tokens=1,228,800/25,000,000 loss=3.9725 tokens/sec=12082 eta_minutes=32.8
+progress tokens=1,638,400/25,000,000 loss=3.7871 tokens/sec=11620 eta_minutes=33.5
+progress tokens=2,048,000/25,000,000 loss=3.4859 tokens/sec=11231 eta_minutes=34.1
+progress tokens=2,457,600/25,000,000 loss=3.3778 tokens/sec=10691 eta_minutes=35.1
+tokens=2,506,752 train=3.2729 val=3.1314 lr=0.000595
+progress tokens=2,867,200/25,000,000 loss=3.2268 tokens/sec=10474 eta_minutes=35.2
+progress tokens=3,276,800/25,000,000 loss=3.1832 tokens/sec=10423 eta_minutes=34.7
+progress tokens=3,686,400/25,000,000 loss=3.1062 tokens/sec=10259 eta_minutes=34.6
+progress tokens=4,096,000/25,000,000 loss=2.9959 tokens/sec=10260 eta_minutes=34.0
+progress tokens=4,505,600/25,000,000 loss=2.9903 tokens/sec=10261 eta_minutes=33.3
+progress tokens=4,915,200/25,000,000 loss=2.7761 tokens/sec=10228 eta_minutes=32.7
+tokens=5,005,312 train=2.9361 val=2.6170 lr=0.000564
+progress tokens=5,324,800/25,000,000 loss=2.8148 tokens/sec=10277 eta_minutes=31.9
+progress tokens=5,734,400/25,000,000 loss=2.7692 tokens/sec=10313 eta_minutes=31.1
+progress tokens=6,144,000/25,000,000 loss=2.8246 tokens/sec=10252 eta_minutes=30.7
+progress tokens=6,553,600/25,000,000 loss=2.7204 tokens/sec=10249 eta_minutes=30.0
+progress tokens=6,963,200/25,000,000 loss=2.7590 tokens/sec=10274 eta_minutes=29.3
+progress tokens=7,372,800/25,000,000 loss=2.6614 tokens/sec=10284 eta_minutes=28.6
+tokens=7,503,872 train=2.5588 val=2.3543 lr=0.000508
+progress tokens=7,782,400/25,000,000 loss=2.6822 tokens/sec=9827 eta_minutes=29.2
+progress tokens=8,192,000/25,000,000 loss=2.5867 tokens/sec=9075 eta_minutes=30.9
+progress tokens=8,601,600/25,000,000 loss=2.5568 tokens/sec=8860 eta_minutes=30.8
+progress tokens=9,011,200/25,000,000 loss=2.5146 tokens/sec=8990 eta_minutes=29.6
+progress tokens=9,420,800/25,000,000 loss=2.5360 tokens/sec=9105 eta_minutes=28.5
+progress tokens=9,830,400/25,000,000 loss=2.5486 tokens/sec=9226 eta_minutes=27.4
+tokens=10,002,432 train=2.4892 val=2.1929 lr=0.000433
+progress tokens=10,240,000/25,000,000 loss=2.4724 tokens/sec=9337 eta_minutes=26.3
+progress tokens=10,649,600/25,000,000 loss=2.3667 tokens/sec=9416 eta_minutes=25.4
+progress tokens=11,059,200/25,000,000 loss=2.4208 tokens/sec=9497 eta_minutes=24.5
+progress tokens=11,468,800/25,000,000 loss=2.4273 tokens/sec=9560 eta_minutes=23.6
+progress tokens=11,878,400/25,000,000 loss=2.3539 tokens/sec=9600 eta_minutes=22.8
+progress tokens=12,288,000/25,000,000 loss=2.5255 tokens/sec=9632 eta_minutes=22.0
+tokens=12,500,992 train=2.4388 val=2.0742 lr=0.000348
+progress tokens=12,697,600/25,000,000 loss=2.3676 tokens/sec=9641 eta_minutes=21.3
+progress tokens=13,107,200/25,000,000 loss=2.2734 tokens/sec=9649 eta_minutes=20.5
+progress tokens=13,516,800/25,000,000 loss=2.2543 tokens/sec=9670 eta_minutes=19.8
+progress tokens=13,926,400/25,000,000 loss=2.2544 tokens/sec=9694 eta_minutes=19.0
+progress tokens=14,336,000/25,000,000 loss=2.3497 tokens/sec=9721 eta_minutes=18.3
+progress tokens=14,745,600/25,000,000 loss=2.3828 tokens/sec=9743 eta_minutes=17.5
+tokens=15,007,744 train=2.2308 val=1.9817 lr=0.00026
+progress tokens=15,155,200/25,000,000 loss=2.3158 tokens/sec=9750 eta_minutes=16.8
+progress tokens=15,564,800/25,000,000 loss=2.2295 tokens/sec=9750 eta_minutes=16.1
+progress tokens=15,974,400/25,000,000 loss=2.3082 tokens/sec=9744 eta_minutes=15.4
+progress tokens=16,384,000/25,000,000 loss=2.2755 tokens/sec=9726 eta_minutes=14.8
+progress tokens=16,793,600/25,000,000 loss=2.2169 tokens/sec=9699 eta_minutes=14.1
+progress tokens=17,203,200/25,000,000 loss=2.1288 tokens/sec=9691 eta_minutes=13.4
+tokens=17,506,304 train=2.0875 val=1.9106 lr=0.00018
+progress tokens=17,612,800/25,000,000 loss=2.1416 tokens/sec=9680 eta_minutes=12.7
+progress tokens=18,022,400/25,000,000 loss=2.0763 tokens/sec=9658 eta_minutes=12.0
+progress tokens=18,432,000/25,000,000 loss=2.1837 tokens/sec=9639 eta_minutes=11.4
+progress tokens=18,841,600/25,000,000 loss=2.2111 tokens/sec=9629 eta_minutes=10.7
+progress tokens=19,251,200/25,000,000 loss=2.1409 tokens/sec=9583 eta_minutes=10.0
+progress tokens=19,660,800/25,000,000 loss=2.1112 tokens/sec=9568 eta_minutes=9.3
+tokens=20,004,864 train=2.1307 val=1.8632 lr=0.000116
+progress tokens=20,070,400/25,000,000 loss=2.1881 tokens/sec=9566 eta_minutes=8.6
+progress tokens=20,480,000/25,000,000 loss=2.0480 tokens/sec=9564 eta_minutes=7.9
+progress tokens=20,889,600/25,000,000 loss=2.1803 tokens/sec=9530 eta_minutes=7.2
+progress tokens=21,299,200/25,000,000 loss=1.9877 tokens/sec=9506 eta_minutes=6.5
+progress tokens=21,708,800/25,000,000 loss=2.0619 tokens/sec=9479 eta_minutes=5.8
+progress tokens=22,118,400/25,000,000 loss=2.0687 tokens/sec=9451 eta_minutes=5.1
+tokens=22,503,424 train=2.0309 val=1.8305 lr=7.43e-05
+progress tokens=22,528,000/25,000,000 loss=2.1084 tokens/sec=9431 eta_minutes=4.4
+progress tokens=22,937,600/25,000,000 loss=2.0654 tokens/sec=9414 eta_minutes=3.7
+progress tokens=23,347,200/25,000,000 loss=2.1323 tokens/sec=9393 eta_minutes=2.9
+progress tokens=23,756,800/25,000,000 loss=2.0010 tokens/sec=9385 eta_minutes=2.2
+progress tokens=24,166,400/25,000,000 loss=2.0648 tokens/sec=9360 eta_minutes=1.5
+progress tokens=24,576,000/25,000,000 loss=1.9942 tokens/sec=9317 eta_minutes=0.8
+progress tokens=24,985,600/25,000,000 loss=2.0211 tokens/sec=9286 eta_minutes=0.0
+tokens=25,001,984 train=2.0615 val=1.8128 lr=6e-05
+[train] complete
+[verify_checkpoints_and_evaluate] starting
+[verify_checkpoints_and_evaluate] complete
+[generate_nine_continuations] starting
+Generated initial: 3 prompts × 200 new tokens
+Generated halfway: 3 prompts × 200 new tokens
+Generated final: 3 prompts × 200 new tokens
+[generate_nine_continuations] complete
+[plot_losses] starting
+Saved runs/tiny-gpt-mps-peak/report/loss_curve.png and loss_curve.svg; source points in loss_points.csv
+[plot_losses] complete
+[assemble_report] starting
+[assemble_report] complete

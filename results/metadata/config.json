@@ -1,0 +1,52 @@
+{
+  "seed": 2026,
+  "data_dir": "data",
+  "output_dir": "runs/tiny-gpt-mps-peak",
+  "dataset_name": "roneneldan/TinyStories",
+  "train_stories": 100000,
+  "validation_stories": 2000,
+  "tokenizer_vocab_size": 8192,
+  "tokenizer_min_frequency": 2,
+  "validation_targets": 32768,
+  "n_layers": 6,
+  "d_model": 384,
+  "n_heads": 6,
+  "context_length": 256,
+  "mlp_ratio": 4,
+  "dropout": 0.0,
+  "init_std": 0.02,
+  "target_tokens": 25000000,
+  "warmup_tokens": 1000000,
+  "eval_every_tokens": 2500000,
+  "learning_rate": 0.0006,
+  "min_learning_rate": 6e-05,
+  "weight_decay": 0.1,
+  "adam_betas": [
+    0.9,
+    0.95
+  ],
+  "grad_clip": 1.0,
+  "effective_batch_size": 32,
+  "microbatch_size": 8,
+  "cuda_precision": "bfloat16",
+  "mps_precision": "float32",
+  "cpu_precision": "float32",
+  "overfit_batch_size": 8,
+  "overfit_contexts": [
+    64,
+    256
+  ],
+  "overfit_learning_rate": 0.001,
+  "overfit_max_steps": 1000,
+  "overfit_loss_threshold": 0.05,
+  "overfit_accuracy_threshold": 0.99,
+  "temperature": 0.8,
+  "top_k": 40,
+  "max_new_tokens": 200,
+  "early_stop": false,
+  "prompts": [
+    "Once upon a time, there was a little girl named Lily.",
+    "Tom and his dog walked to the park.",
+    "One day, a boy found a shiny red ball."
+  ]
+}

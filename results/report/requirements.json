@@ -1,0 +1,13 @@
+{
+  "architecture": "verified",
+  "data_and_tokenizer_integrity": "verified",
+  "fixed_batch_overfit": "verified",
+  "approximately_25m_targets": "verified",
+  "loss_curves_and_best_perplexity": "included",
+  "training_time_and_throughput": "included",
+  "gpu_memory": "MPS allocator peak",
+  "nine_fixed_setting_continuations": "included",
+  "qualitative_observations": "included; review before submission",
+  "handwritten_prediction_and_interpretation": "author must supply",
+  "single_submission_pdf_and_tool_acknowledgment": "author must assemble and review"
+}

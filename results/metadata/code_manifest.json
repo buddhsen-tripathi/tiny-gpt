@@ -1,0 +1,24 @@
+{
+  "source_sha256": {
+    "__init__.py": "a0748234f50a66204ac52ff10a212bfedab212d9fda988a8f287e5fdc6676a86",
+    "__main__.py": "6c9de45e160755f3ae0ec3513b123e8c27b964bba5893c0f6a009b51b7ea9ab0",
+    "checkpoint.py": "19e25e08f578e5de95b0fdfd6247be4b874e36db621f710fc44ee996c9485d95",
+    "checks.py": "37a607387260b1faccd8cd7de1a0857980f464b33ca16852399f10ba5b95bba8",
+    "cli.py": "cdd0bfd60f5ef1e291ec3129edb347d4b79b018ce0869eae092fe449f1df8ca9",
+    "config.py": "504c96f2fc9f6dc9f5aa3326b438f05747d0a29d7abd39fe6a27067b42c189bd",
+    "course_data.py": "ec8e44f92094c643983f309a281ce8cc4449ff348d986a571afc0140735b0d97",
+    "data_contract.py": "0bc25949e658c08b44cbba9a237ba59fabbecc4d0006719be03badf2b800b4e3",
+    "evaluation.py": "ee6520e786479f4b5a90fbe6db5fbaf4ed8b15b64c48dcda0790e4fa7abce61e",
+    "generate.py": "3b9c35da7fa1eb74076bab6497abf615118a47b9ca54b586263c815c685d063a",
+    "loss.py": "c2478e600e82b2da246b1320df7686d40dfc019e085975ce164343d69fec2a9f",
+    "model.py": "56944c444cce4476825734001730cd7228348a7382280f87211389f079a563a2",
+    "overfit.py": "6ddde9ab3b15e2a8230c902339d392a5a9ae46b66bee0513d76ad17ae993fdda",
+    "pipeline.py": "797d8efc9bd7fdd993f71f6361efa75cf598063a99edd81b10c17646e5780f61",
+    "plot_loss.py": "08f02d03acbc3b9225335b0e28f4fa8aa8107b5a4551d618bfb9531505b5a1a6",
+    "prepare_data.py": "f21e5aec9372ed5be0746348f637c5e32de248af2f12b44a04e8eba2cf84e5b3",
+    "report.py": "13c57cff7931ca650297f2eeb1599ca15f2aa14526a69bd21d1b4b793606fb59",
+    "runtime.py": "a38196fec088e3fecdc12f50f7f5cbfb0095032143db74d10568338fc572a05b",
+    "train.py": "10b01fda9e1de70498e6eaa58b79aa352026b27d4fb9ccd37290afc11bae89e0"
+  },
+  "torch_version": "2.14.1"
+}

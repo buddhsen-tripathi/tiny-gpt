@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "checks": {
+    "logits_shape": true,
+    "finite_logits": true,
+    "tied_head": true,
+    "unique_embedding_parameter": true,
+    "parameter_count": true,
+    "causal_independence": true,
+    "initial_loss_near_uniform": true
+  },
+  "parameters": 13891584,
+  "logits_shape": [
+    8,
+    256,
+    8192
+  ],
+  "initial_loss": 9.079252243041992,
+  "ln_vocab": 9.010913347279288,
+  "device": "mps",
+  "dtype": "torch.float32"
+}

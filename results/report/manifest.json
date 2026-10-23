@@ -1,0 +1,16 @@
+{
+  "source_results": "results/results.json",
+  "source_results_sha256": "f2841767bdc5a949e74fe803a4eb6ea545918322f16d9e2f7a607ab858327310",
+  "artifacts": {
+    "report.md": "57bdbe0929057aca869cefcc0834c1ad66f240db1dcc0a9990fb02a3d5e77ee8",
+    "report.pdf": "e0c89f2e67bac4c3e2cb688e7c56db0ca7e2bf4a5b97b04c3a4115be15cc9e72",
+    "requirements.json": "f3b762d0c8468f753e17d56a98840b47b40f6eeb5358d3c74f5e4e5c389ecdd2",
+    "verification.json": "2bc79e1cfa0875536ed2eeeec295605bfc88a7c9c458902478817f6934124725",
+    "samples.json": "ad8654a332573fb3bccc08b6ee140424ba38af28d0026b991dbc5756b9a6263c",
+    "samples.md": "0a287aaa01d4c350987af5f055370f89af725ebd53fb31f79bf86959e406d416",
+    "loss_curve.png": "b24614d0b072c98bd724463e29b56c033980c3575a0cc0eb9fcc8eae3f1a0cfb",
+    "loss_curve.svg": "8359e33a06b30f9b7a57e59f68c2e4c0d14e461792be8b93189bd4ac6340efee",
+    "loss_points.csv": "3ef9ed4eadd7bba63d893ff3cbae15cd8cc1001066ee4b3327282ab8f214e407",
+    "figure_manifest.json": "db252d061840f05e376909a3c2b08ef8f7ad1c21ac63a57c4d207ca8cafcedf1"
+  }
+}

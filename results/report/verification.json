@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "device": "mps",
+  "tokenizer_sha256": "a635d19f48fe5d7aa9d7f34ab9ad37213bf58a65bb48c1929617856df15293bb",
+  "source_results_sha256": "f2841767bdc5a949e74fe803a4eb6ea545918322f16d9e2f7a607ab858327310",
+  "checkpoints": {
+    "initial": {
+      "tokens_seen": 0,
+      "sha256": "bcd1260bcfa853e75ec53520c91d6744cacc9ac47eeb4ade23667fe12fa5afca"
+    },
+    "halfway": {
+      "tokens_seen": 12500992,
+      "sha256": "8a1c47431183940674eb2168074205bc4bf873bea6f9d3764fe4fb9ab75c234c"
+    },
+    "final": {
+      "tokens_seen": 25001984,
+      "sha256": "6247f03b4053f296b9cedc18c93cedbc3660ac3cd6a45a3a7bb39c5a32ee5b0a"
+    },
+    "best": {
+      "tokens_seen": 25001984,
+      "sha256": "2d7641867ed9ed78c1b8b2d0661ebd46c26571e5a06a7c83cce5ddd56b749e0f"
+    }
+  },
+  "reloaded_validation_loss": 1.8128443509340286,
+  "validation_targets": 32768
+}

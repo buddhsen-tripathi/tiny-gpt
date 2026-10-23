@@ -1,0 +1,114 @@
+{
+  "passed": true,
+  "source": "TinyStories_Reference.ipynb, real-data full profile, cells 4/6/8/14; revision=f54c09fd23315a6f9c86f9dc80f725de7d8f9c64",
+  "vocab_size": 8192,
+  "pad_id": null,
+  "eos_id": 1,
+  "bos_id": null,
+  "data_sha256": {
+    "train.jsonl": "d2286f3a06282ba6d408f692371266495868a93120ac2a596435ebff7f8fae2b",
+    "validation.jsonl": "6b8bff0b5c1860250cd0e51352c3392c5cd8517778594dfd971ea13e6aedb92d",
+    "tokenizer.json": "a635d19f48fe5d7aa9d7f34ab9ad37213bf58a65bb48c1929617856df15293bb",
+    "train_tokens.npy": "28d1ddf3d3a21bc172570510cd61b10745422f616d4fd0aae92daa4d74c364cb",
+    "val_tokens.npy": "800d9656c6b2cf183688cfc2b46ded323befe5fb5100035a48a83bd0f1fd98bd"
+  },
+  "config": {
+    "seed": 2026,
+    "data_dir": "data",
+    "output_dir": "runs/tiny-gpt-mps-peak",
+    "dataset_name": "roneneldan/TinyStories",
+    "train_stories": 100000,
+    "validation_stories": 2000,
+    "tokenizer_vocab_size": 8192,
+    "tokenizer_min_frequency": 2,
+    "validation_targets": 32768,
+    "n_layers": 6,
+    "d_model": 384,
+    "n_heads": 6,
+    "context_length": 256,
+    "mlp_ratio": 4,
+    "dropout": 0.0,
+    "init_std": 0.02,
+    "target_tokens": 25000000,
+    "warmup_tokens": 1000000,
+    "eval_every_tokens": 2500000,
+    "learning_rate": 0.0006,
+    "min_learning_rate": 6e-05,
+    "weight_decay": 0.1,
+    "adam_betas": [
+      0.9,
+      0.95
+    ],
+    "grad_clip": 1.0,
+    "effective_batch_size": 32,
+    "microbatch_size": 8,
+    "cuda_precision": "bfloat16",
+    "mps_precision": "float32",
+    "cpu_precision": "float32",
+    "overfit_batch_size": 8,
+    "overfit_contexts": [
+      64,
+      256
+    ],
+    "overfit_learning_rate": 0.001,
+    "overfit_max_steps": 1000,
+    "overfit_loss_threshold": 0.05,
+    "overfit_accuracy_threshold": 0.99,
+    "temperature": 0.8,
+    "top_k": 40,
+    "max_new_tokens": 200,
+    "early_stop": false,
+    "prompts": [
+      "Once upon a time, there was a little girl named Lily.",
+      "Tom and his dog walked to the park.",
+      "One day, a boy found a shiny red ball."
+    ]
+  },
+  "train": {
+    "source_shape": [
+      8,
+      256
+    ],
+    "source_dtype": "torch.int64",
+    "input_shape": [
+      8,
+      256
+    ],
+    "target_shape": [
+      8,
+      256
+    ],
+    "device": "cpu",
+    "dtype": "torch.int64",
+    "min_token_id": 1,
+    "max_token_id": 8081,
+    "target_tokens": 2048,
+    "ignored_targets": 0,
+    "decoded_input_row": " kept pulling and eventually the truck was free from the mud. Everyone was so surprised! Everyone cheered for the rat, it was so impressive!\n\nAnd from that day on the rat was known as the strongest rat in the forest!Once upon a time there was a baby who was very tough. Every day he would act brave and strong. He had a special crib that he spent lots of time in.\n\nThe baby would act silly and giggle in his crib. He would kick his feet and reach his arms out. One day, the baby acted really brave and jumped out of the crib!\n\nThe baby was happy and he acted silly. He would run around and look at things. It was so much fun!\n\nBut one day, the baby was so tough he acted brave and climbed back into his crib. He was a brave little baby and no one could stop him!Once upon a time, there was a 3 year old named Jack. One day, he wanted to watch a cartoon on his laptop, but unfortunately, he couldn't find it. Jack asked his mom for help.\n\n\"Mom, can you help me?\"\n\n\"Sure, honey,\" his mother said. \"Let's search for it together",
+    "shift_check": "passed"
+  },
+  "validation": {
+    "source_shape": [
+      8,
+      256
+    ],
+    "source_dtype": "torch.int64",
+    "input_shape": [
+      8,
+      256
+    ],
+    "target_shape": [
+      8,
+      256
+    ],
+    "device": "cpu",
+    "dtype": "torch.int64",
+    "min_token_id": 1,
+    "max_token_id": 8066,
+    "target_tokens": 2048,
+    "ignored_targets": 0,
+    "decoded_input_row": "Spot. Spot saw the shiny car and said, \"Wow, Kitty, your car is so bright and clean!\" Kitty smiled and replied, \"Thank you, Spot. I polish it every day.\"\n\nAfter playing with the car, Kitty and Spot felt thirsty. They found a small pond with clear water. They drank the water and felt very happy. They played together all day and became best friends.Once upon a time, in a big forest, there lived a rhinoceros named Roxy. Roxy loved to climb. She climbed trees, rocks, and hills. One day, Roxy found an icy hill. She had never seen anything like it before. It was shiny and cold, and she wanted to climb it.\n\nRoxy tried to climb the icy hill, but it was very slippery. She tried again and again, but she kept falling down. Roxy was sad. She wanted to climb the icy hill so much. Then, she saw a little bird named Billy. Billy saw that Roxy was sad and asked, \"Why are you sad, Roxy?\"\n\nRoxy told Billy about the icy hill and how she couldn't climb it. Billy said, \"I have an idea! Let's find some big leaves to put",
+    "shift_check": "passed"
+  },
+  "text_review": "Inspect decoded_input_row in each split for readable text"
+}

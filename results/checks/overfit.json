@@ -1,0 +1,118 @@
+{
+  "passed": true,
+  "device": "mps",
+  "dtype": "torch.float32",
+  "config": {
+    "seed": 2026,
+    "data_dir": "data",
+    "output_dir": "runs/tiny-gpt",
+    "dataset_name": "roneneldan/TinyStories",
+    "train_stories": 100000,
+    "validation_stories": 2000,
+    "tokenizer_vocab_size": 8192,
+    "tokenizer_min_frequency": 2,
+    "validation_targets": 32768,
+    "n_layers": 6,
+    "d_model": 384,
+    "n_heads": 6,
+    "context_length": 256,
+    "mlp_ratio": 4,
+    "dropout": 0.0,
+    "init_std": 0.02,
+    "target_tokens": 25000000,
+    "warmup_tokens": 1000000,
+    "eval_every_tokens": 2500000,
+    "learning_rate": 0.0006,
+    "min_learning_rate": 6e-05,
+    "weight_decay": 0.1,
+    "adam_betas": [
+      0.9,
+      0.95
+    ],
+    "grad_clip": 1.0,
+    "effective_batch_size": 32,
+    "microbatch_size": 8,
+    "cuda_precision": "bfloat16",
+    "mps_precision": "float32",
+    "cpu_precision": "float32",
+    "overfit_batch_size": 8,
+    "overfit_contexts": [
+      64,
+      256
+    ],
+    "overfit_learning_rate": 0.001,
+    "overfit_max_steps": 1000,
+    "overfit_loss_threshold": 0.05,
+    "overfit_accuracy_threshold": 0.99,
+    "temperature": 0.8,
+    "top_k": 40,
+    "max_new_tokens": 200,
+    "early_stop": false,
+    "prompts": [
+      "Once upon a time, there was a little girl named Lily.",
+      "Tom and his dog walked to the park.",
+      "One day, a boy found a shiny red ball."
+    ]
+  },
+  "data_sha256": {
+    "train.jsonl": "d2286f3a06282ba6d408f692371266495868a93120ac2a596435ebff7f8fae2b",
+    "validation.jsonl": "6b8bff0b5c1860250cd0e51352c3392c5cd8517778594dfd971ea13e6aedb92d",
+    "tokenizer.json": "a635d19f48fe5d7aa9d7f34ab9ad37213bf58a65bb48c1929617856df15293bb",
+    "train_tokens.npy": "28d1ddf3d3a21bc172570510cd61b10745422f616d4fd0aae92daa4d74c364cb",
+    "val_tokens.npy": "800d9656c6b2cf183688cfc2b46ded323befe5fb5100035a48a83bd0f1fd98bd"
+  },
+  "contexts": [
+    {
+      "context": 64,
+      "initial_loss": 9.064462661743164,
+      "passed": true,
+      "seconds": 4.139773416798562,
+      "history": [
+        {
+          "step": 25,
+          "loss": 2.1393954753875732,
+          "accuracy": 0.529296875
+        },
+        {
+          "step": 50,
+          "loss": 0.0177626870572567,
+          "accuracy": 1.0
+        }
+      ],
+      "step": 50,
+      "loss": 0.0177626870572567,
+      "accuracy": 1.0
+    },
+    {
+      "context": 256,
+      "initial_loss": 9.079252243041992,
+      "passed": true,
+      "seconds": 17.21650483412668,
+      "history": [
+        {
+          "step": 25,
+          "loss": 4.510047912597656,
+          "accuracy": 0.185546875
+        },
+        {
+          "step": 50,
+          "loss": 1.8752458095550537,
+          "accuracy": 0.6298828125
+        },
+        {
+          "step": 75,
+          "loss": 0.06697223335504532,
+          "accuracy": 0.99951171875
+        },
+        {
+          "step": 100,
+          "loss": 0.0034866537898778915,
+          "accuracy": 1.0
+        }
+      ],
+      "step": 100,
+      "loss": 0.0034866537898778915,
+      "accuracy": 1.0
+    }
+  ]
+}
